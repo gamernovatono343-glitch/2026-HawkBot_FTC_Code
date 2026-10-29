@@ -17,6 +17,7 @@ public class MyFIRSTJavaOpMode extends LinearOpMode {
 		distance1 = hardwareMap.get(DistanceSensor.class, "distance1");
 		imu = hardwareMap.get(BNO055IMU.class, "imu");
 	
+	
 		// Put initialization blocks here
 		waitForStart();
 		// Put run blocks here
@@ -40,4 +41,4 @@ public class MyFIRSTJavaOpMode extends LinearOpMode {
 	}
 	
 	
-}
+} 
